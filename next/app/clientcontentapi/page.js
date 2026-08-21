@@ -21,6 +21,7 @@ export default function Page (){
                     return <h2 key={item.id}>{item.title}</h2>
                 })
             }
+            <button onClick={()=>{alert("Button clicked.........")}}>button</button>
         </div>
     )
 }
